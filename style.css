@@ -5,18 +5,7 @@
 
 }
 
-/* 
-.navbar img {
-    margin-left: -187px;
-} */
 
-/* 
-.info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-} */
 
 .navbar {
     background: white;
@@ -135,6 +124,85 @@ button {
     align-items: center;
 }
 
-/* .work1{
-    align-items: ;
+/* .secPage2 {
+    padding: 15px;
+
 } */
+
+.serviceSlot1 {
+    display: flex;
+    background: rgb(185, 222, 239);
+    gap: 15px;
+
+}
+
+.serviceSlot2 {
+    display: flex;
+    background: rgb(185, 222, 239);
+    gap: 10px;
+
+}
+
+.service4 img {
+    padding: 15px;
+}
+
+.service6 img {
+    margin: -10px;
+    padding: 20px;
+}
+
+
+.service1,
+.service2,
+.service3,
+.service4,
+.service5,
+.service6 {
+    border: 2px solid rgb(4, 18, 24);
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 35px;
+    width: 40vw;
+    background: rgb(185, 222, 239);
+}
+
+.pag3 h1 {
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: 'montserret', sans-serif;
+    text-align: center;
+}
+
+.karobar {
+    padding: 10px 150px;
+    margin: 19vw 10vw;
+    border: 2px solid red;
+    background: rgb(43, 172, 38);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+
+}
+
+.karobar h1 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 200px;
+}
+
+.karobar p {
+
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
