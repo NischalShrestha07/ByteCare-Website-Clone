@@ -14,10 +14,10 @@
         <img src="images/logo1.png" alt="banner">
         <ul>
             <li><a href="#page1">HOME</a></li>
-            <li>SERVICES</li>
-            <li>PRODUCTS</li>
-            <li>OUR WORKS</li>
-            <li>CONTACT</li>
+            <li><a href="#pag1">SERVICES</a></li>
+            <li><a href="#pag3">PRODUCTS</a></li>
+            <li><a href="#para1">OUR WORKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
 
         </ul>
     </nav>
@@ -41,8 +41,8 @@
 
 
         </div>
-        <!-- </div> -->
-        <section class="secPage1">
+
+        <section class="secPage1" id="pag1">
             <div class="container1">
                 <h1>How We Work</h1>
             </div>
@@ -105,7 +105,7 @@
     </section>
     <!-- second page Services -->
 
-    <section class="secPage2">
+    <section class="secPage2" id="para1">
         <div class="container1">
             <h1>What We Provide</h1>
         </div>
@@ -191,7 +191,7 @@
             </div>
     </section>
     </div>
-    <div class="pag3">
+    <div class="pag3" id="pag3">
         <h1>Our Products</h1>
 
         <div class="karobar">
@@ -222,6 +222,48 @@
 
         </div>
     </div>
+
+    <div class="main">
+        <div class="heading" id="contact">
+            <h1>Like Our Work</h1>
+            <p>Contact us for any queries or projects</p>
+
+            <div class="contactForm">
+
+                <h1>Contact me for Work/General Enquiry</h1>
+                <form>
+                    <div class="name">
+                        <label class="userName"> Name</label>
+                        <input type="text" class="userName1" id="userEmail" placeholder="Username">
+                    </div>
+                    <div class="email">
+                        <label for="userEmail" class="formLabel">Email address:</label>
+                        <input type="email" class="formControl" id="userEmail" aria-describedby="emailHelp"
+                            placeholder="Email-Id">
+                        <div id="emailHelp" class="formText">We'll never share your email and number with anyone
+                            else.
+                        </div>
+                    </div>
+                    <div class="phoneNo">
+                        <label for="userPhone" class="formLabel">Phone Number:</label>
+                        <input type="phone" class="formControl" id="userPhone" placeholder="PhoneNumber">
+                    </div>
+                    <div class="name">
+                        <label class="userName"> Enquiry:</label>
+                        <input type="text" class="userName1" id="userEmail" placeholder="Message">
+                    </div>
+
+                    <div class="checkOut">
+                        <input type="checkbox" class="form-check-input" id="isUser">
+                        <label class="form-check-label" for="isUser">I want you to work on a project with
+                            me.</label>
+                    </div>
+                    <button type="submit" class="Submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
